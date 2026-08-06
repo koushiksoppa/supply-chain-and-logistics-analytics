@@ -1,0 +1,9 @@
+Warehouse,Region,Hub City,Capacity Units,Avg Processing Days,Storage Cost Per Unit
+WH01,North,Delhi NCR,56710,2.08,9.65
+WH02,South,Bengaluru,55786,2.29,10.15
+WH03,East,Kolkata,32211,1.61,5.33
+WH04,West,Mumbai,34836,1.16,11.35
+WH05,Central,Nagpur,52364,2.45,6.46
+WH06,North,Delhi NCR,60913,1.57,7.13
+WH07,South,Bengaluru,40908,0.97,7.51
+WH08,East,Kolkata,26437,0.63,11.35

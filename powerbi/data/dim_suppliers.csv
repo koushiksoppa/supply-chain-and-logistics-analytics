@@ -1,0 +1,26 @@
+Supplier,Supplier Name,Avg Lead Time Days,Defect Rate,Reliability Score
+SUP001,"Choudhury, Bakshi and Maharaj",16,0.0159,0.945
+SUP002,Kapoor and Sons,5,0.0103,0.971
+SUP003,"Chaudry, Chahal and Sami",19,0.0088,0.931
+SUP004,Balan Inc,16,0.0397,0.944
+SUP005,Kaul PLC,4,0.0445,0.911
+SUP006,"Bala, Issac and Saini",17,0.0227,0.932
+SUP007,Sen PLC,6,0.0373,0.926
+SUP008,Ahuja-Dutta,20,0.029,0.944
+SUP009,"Sami, Oak and Mall",9,0.0138,0.838
+SUP010,Kale LLC,20,0.0347,0.891
+SUP011,Chanda Group,18,0.0077,0.877
+SUP012,Parmer LLC,13,0.0371,0.911
+SUP013,"Lalla, Bassi and Sharaf",9,0.0446,0.922
+SUP014,"Dash, Radhakrishnan and Brar",14,0.0485,0.919
+SUP015,"Memon, Pathak and Handa",20,0.0383,0.819
+SUP016,"Boase, Bath and Kari",12,0.02,0.9
+SUP017,Buch-Kaul,20,0.0423,0.817
+SUP018,Rai LLC,18,0.0376,0.842
+SUP019,Patla-Gaba,3,0.0505,0.913
+SUP020,Pant-Kadakia,16,0.0375,0.864
+SUP021,"Loke, Bora and Garg",16,0.0525,0.937
+SUP022,"Konda, Gade and Shere",11,0.0336,0.87
+SUP023,Madan-Kanda,8,0.0129,0.837
+SUP024,"Nair, Bhalla and Karnik",3,0.0255,0.979
+SUP025,Mutti Group,9,0.0179,0.82
