@@ -1,6 +1,5 @@
 # 📦 Supply Chain Analytics Dashboard
 
-> Status: 🚧 In progress — Python analytics layer complete (Steps 1–6). SQL, Power BI, and final polish are still ahead.
 
 An end-to-end supply chain analytics project modeled on a Flipkart-style Indian e-commerce operation: data engineering (Python), business intelligence querying (SQL — upcoming), and executive-level dashboarding (Power BI — upcoming). Built to demonstrate practical, industry-style analytics work, not a tutorial walkthrough.
 
