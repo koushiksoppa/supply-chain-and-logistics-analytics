@@ -134,8 +134,13 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     df["Cost Per Unit"] = round(df["Total Cost"] / df["Order Quantity"], 2)
 
     # --- Inventory / fill-rate inputs (used for Fill Rate & Stockout KPIs later) ---
+    # Fill Rate = the fraction of THIS order's requested quantity that was
+    # actually issued from stock. (Demand includes background consumption
+    # accumulated since the last order for that product/warehouse — using
+    # it as the denominator would understate fill rate for reasons that
+    # have nothing to do with this specific order.)
     df["Fill Rate"] = np.where(
-        df["Demand"] > 0, (df["Stock Issued"] / df["Demand"]).clip(upper=1.0), 1.0
+        df["Order Quantity"] > 0, (df["Stock Issued"] / df["Order Quantity"]).clip(upper=1.0), 1.0
     )
     df["Stockout Flag"] = df["Inventory Level"] <= 0
     df["Fully Fulfilled Flag"] = df["Stock Issued"] >= df["Order Quantity"]

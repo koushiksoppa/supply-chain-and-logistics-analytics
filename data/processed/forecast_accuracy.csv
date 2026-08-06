@@ -1,0 +1,9 @@
+Category,Total_Orders,Avg_Actual_Demand,Avg_Forecast_Demand,MAE,MAPE,Forecast_Bias,Forecast Accuracy %
+Mobiles & Accessories,9795,167.7,167.83,47.21,27.99,0.13,72.0
+Electronics,7161,166.01,167.11,44.01,26.27,1.1,73.7
+Fashion,12165,170.76,171.54,40.52,23.67,0.78,76.3
+Home & Furniture,6359,159.96,160.37,33.17,20.44,0.41,79.6
+Appliances,4815,160.56,162.29,30.31,18.75,1.74,81.2
+Sports & Fitness,11038,168.23,167.94,30.82,18.19,-0.3,81.8
+Beauty & Personal Care,20253,172.96,172.55,27.66,15.92,-0.41,84.1
+Grocery,28414,173.87,173.84,16.54,9.42,-0.03,90.6
