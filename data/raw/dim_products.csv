@@ -1,0 +1,401 @@
+Product ID,Product Name,Category,Brand,Base Procurement Cost,Base Selling Price,Daily Demand Rate,Forecast Noise,Unit Weight KG,Supplier
+P00001,OnePlus True Wireless Earbuds 103,Mobiles & Accessories,OnePlus,31563.17,36798.23,8.97,0.35,24.39,SUP003
+P00002,Britannia Refined Sunflower Oil 376,Grocery,Britannia,713.88,811.44,14.01,0.12,23.18,SUP019
+P00003,WOW Face Wash 558,Beauty & Personal Care,WOW,2074.63,2927.0,6.41,0.2,1.69,SUP021
+P00004,Himalaya Face Wash 970,Beauty & Personal Care,Himalaya,1615.99,2407.05,8.32,0.2,22.34,SUP018
+P00005,Britannia Refined Sunflower Oil 162,Grocery,Britannia,199.34,235.36,5.88,0.12,17.11,SUP015
+P00006,Nike Yoga Mat 474,Sports & Fitness,Nike,7749.82,10268.05,3.96,0.23,4.82,SUP023
+P00007,Godrej Interio Bed with Storage 442,Home & Furniture,Godrej Interio,21721.3,27485.74,4.35,0.26,20.83,SUP017
+P00008,Nestle Masala Tea 393,Grocery,Nestle,301.76,370.62,21.1,0.12,7.28,SUP022
+P00009,HP Home Theatre System 788,Electronics,HP,14298.22,16071.04,1.05,0.33,16.65,SUP005
+P00010,Pepperfry 3-Seater Sofa 148,Home & Furniture,Pepperfry,35264.37,46259.21,3.84,0.26,2.95,SUP017
+P00011,Pepperfry Wardrobe 637,Home & Furniture,Pepperfry,21516.67,28682.74,4.82,0.26,13.88,SUP011
+P00012,boAt Bluetooth Neckband 222,Mobiles & Accessories,boAt,22320.58,24175.01,6.37,0.35,10.27,SUP022
+P00013,Reebok Football 300,Sports & Fitness,Reebok,2101.33,2654.84,3.25,0.23,16.58,SUP023
+P00014,Mi Laptop 815,Electronics,Mi,70983.04,83739.94,3.84,0.33,4.26,SUP022
+P00015,Roadster Cotton Kurta 169,Fashion,Roadster,632.7,991.26,8.0,0.3,12.58,SUP006
+P00016,Cosco Cricket Kit 308,Sports & Fitness,Cosco,5661.67,7658.07,4.05,0.23,15.79,SUP013
+P00017,Voltas Double Door Refrigerator 908,Appliances,Voltas,6462.98,7531.57,4.85,0.24,17.52,SUP001
+P00018,Urban Ladder Bookshelf 454,Home & Furniture,Urban Ladder,43631.43,60025.95,4.58,0.26,6.88,SUP025
+P00019,Samsung Smartwatch 312,Mobiles & Accessories,Samsung,63328.26,71280.87,4.02,0.35,14.52,SUP007
+P00020,Samsung Air Conditioner 437,Appliances,Samsung,47371.88,59148.89,3.88,0.24,15.72,SUP016
+P00021,Mi Home Theatre System 51,Electronics,Mi,59186.5,65704.91,3.91,0.33,12.4,SUP013
+P00022,boAt Home Theatre System 178,Electronics,boAt,14718.13,16372.57,5.11,0.33,23.14,SUP023
+P00023,Boldfit Yoga Mat 958,Sports & Fitness,Boldfit,2970.9,4117.4,1.18,0.23,12.11,SUP021
+P00024,Durian Wardrobe 937,Home & Furniture,Durian,4273.21,5629.23,3.45,0.26,14.34,SUP020
+P00025,Haier Mixer Grinder 444,Appliances,Haier,16003.11,19093.37,3.08,0.24,0.64,SUP017
+P00026,W Running Shoes 117,Fashion,W,4058.68,5649.99,9.2,0.3,16.84,SUP003
+P00027,realme True Wireless Earbuds 116,Mobiles & Accessories,realme,46670.45,53797.0,9.69,0.35,22.91,SUP023
+P00028,Cosco Cricket Kit 830,Sports & Fitness,Cosco,588.08,810.15,3.97,0.23,20.23,SUP002
+P00029,Yonex Football 263,Sports & Fitness,Yonex,7637.33,10057.68,5.12,0.23,23.41,SUP012
+P00030,LG 4K Smart TV 891,Electronics,LG,5952.13,6858.11,7.95,0.33,18.74,SUP010
+P00031,Plum Face Wash 773,Beauty & Personal Care,Plum,2244.27,3208.67,7.74,0.2,16.58,SUP010
+P00032,Urban Ladder 3-Seater Sofa 936,Home & Furniture,Urban Ladder,4794.32,6565.14,2.31,0.26,6.1,SUP025
+P00033,Redmi True Wireless Earbuds 602,Mobiles & Accessories,Redmi,58431.22,64001.38,3.79,0.35,21.88,SUP006
+P00034,Redmi Fast Charger 505,Mobiles & Accessories,Redmi,22757.17,26346.9,11.72,0.35,3.68,SUP015
+P00035,Nivia Football 130,Sports & Fitness,Nivia,2068.35,2648.15,6.42,0.23,12.71,SUP006
+P00036,Nike Yoga Mat 717,Sports & Fitness,Nike,4774.6,6187.64,7.43,0.23,18.5,SUP023
+P00037,Mamaearth Sunscreen SPF 50 307,Beauty & Personal Care,Mamaearth,397.01,608.18,8.96,0.2,12.27,SUP019
+P00038,Bosch Microwave Oven 34,Appliances,Bosch,52639.16,62495.21,4.7,0.24,13.92,SUP011
+P00039,HP 4K Smart TV 965,Electronics,HP,11318.97,12641.49,3.93,0.33,14.94,SUP003
+P00040,Acer Bluetooth Speaker 27,Electronics,Acer,72783.76,84144.27,6.49,0.33,2.82,SUP004
+P00041,W Cotton Kurta 609,Fashion,W,3636.47,5163.03,8.9,0.3,21.71,SUP007
+P00042,The Man Company Face Wash 654,Beauty & Personal Care,The Man Company,1090.17,1519.2,9.39,0.2,21.7,SUP011
+P00043,Puma Casual Sneakers 817,Fashion,Puma,1303.32,1852.02,11.7,0.3,2.72,SUP023
+P00044,Nivia Cricket Kit 316,Sports & Fitness,Nivia,4877.14,6260.39,7.6,0.23,3.68,SUP003
+P00045,Kore Badminton Racquet 124,Sports & Fitness,Kore,1574.59,2071.35,2.23,0.23,0.63,SUP015
+P00046,Amul Refined Sunflower Oil 683,Grocery,Amul,181.94,205.04,16.82,0.12,9.9,SUP009
+P00047,Nivea Vitamin C Serum 52,Beauty & Personal Care,Nivea,1310.86,1990.87,15.77,0.2,4.62,SUP002
+P00048,Cosco Cricket Kit 58,Sports & Fitness,Cosco,2220.28,3067.06,4.33,0.23,9.4,SUP016
+P00049,Boldfit Badminton Racquet 924,Sports & Fitness,Boldfit,1082.87,1561.17,1.42,0.23,2.57,SUP018
+P00050,Himalaya Vitamin C Serum 780,Beauty & Personal Care,Himalaya,2266.37,3501.3,15.03,0.2,16.1,SUP024
+P00051,Prestige Mixer Grinder 858,Appliances,Prestige,8958.18,10926.19,3.06,0.24,11.62,SUP013
+P00052,L'Oreal Vitamin C Serum 482,Beauty & Personal Care,L'Oreal,1634.95,2234.35,5.1,0.2,10.48,SUP009
+P00053,Whirlpool Microwave Oven 385,Appliances,Whirlpool,21351.63,25571.37,2.31,0.24,17.18,SUP022
+P00054,Sony Home Theatre System 334,Electronics,Sony,85499.5,103451.13,4.37,0.33,13.43,SUP007
+P00055,Reebok Resistance Band Set 635,Sports & Fitness,Reebok,5324.92,7641.31,5.26,0.23,7.28,SUP018
+P00056,Dell Bluetooth Speaker 140,Electronics,Dell,19811.6,23444.57,7.03,0.33,15.4,SUP024
+P00057,Amul Whole Wheat Atta 145,Grocery,Amul,661.37,748.0,23.72,0.12,23.98,SUP001
+P00058,Lenovo Bluetooth Speaker 945,Electronics,Lenovo,54244.02,64762.74,6.57,0.33,6.41,SUP024
+P00059,Haldiram's Gold Full Cream Milk 568,Grocery,Haldiram's,112.69,135.24,8.43,0.12,14.35,SUP006
+P00060,@home Wardrobe 496,Home & Furniture,@home,23804.85,32678.93,5.0,0.26,15.03,SUP013
+P00061,Acer Laptop 660,Electronics,Acer,12536.56,13966.39,1.61,0.33,10.52,SUP007
+P00062,Reebok Football 764,Sports & Fitness,Reebok,5468.48,7255.23,8.19,0.23,6.84,SUP004
+P00063,Nivea Face Wash 935,Beauty & Personal Care,Nivea,854.66,1144.73,5.22,0.2,11.0,SUP018
+P00064,Aashirvaad Basmati Rice 5kg 781,Grocery,Aashirvaad,664.83,792.4,23.72,0.12,12.04,SUP013
+P00065,boAt Laptop 127,Electronics,boAt,88823.58,105356.42,7.66,0.33,21.28,SUP013
+P00066,Nike Badminton Racquet 22,Sports & Fitness,Nike,1238.8,1716.11,6.49,0.23,11.41,SUP013
+P00067,Britannia Gold Full Cream Milk 308,Grocery,Britannia,286.96,338.5,13.85,0.12,22.97,SUP019
+P00068,Britannia Whole Wheat Atta 290,Grocery,Britannia,126.21,157.71,22.58,0.12,20.94,SUP025
+P00069,Redmi Smartwatch 99,Mobiles & Accessories,Redmi,69938.67,80189.47,8.5,0.35,22.44,SUP013
+P00070,Lakme Sunscreen SPF 50 206,Beauty & Personal Care,Lakme,677.99,905.63,14.65,0.2,22.77,SUP004
+P00071,Van Heusen Casual Sneakers 609,Fashion,Van Heusen,403.69,545.64,2.67,0.3,20.06,SUP009
+P00072,Cosco Football 927,Sports & Fitness,Cosco,6840.45,8640.61,7.41,0.23,19.33,SUP013
+P00073,WOW Face Wash 133,Beauty & Personal Care,WOW,2111.15,2765.69,6.03,0.2,12.66,SUP003
+P00074,IFB Mixer Grinder 736,Appliances,IFB,35316.63,44521.81,1.62,0.24,4.91,SUP006
+P00075,realme Fast Charger 63,Mobiles & Accessories,realme,50128.47,59052.36,8.12,0.35,15.45,SUP006
+P00076,Samsung True Wireless Earbuds 100,Mobiles & Accessories,Samsung,62063.98,71433.02,3.73,0.35,4.67,SUP025
+P00077,Wakefit Bed with Storage 576,Home & Furniture,Wakefit,20960.09,28858.19,4.18,0.26,3.71,SUP011
+P00078,Acer Soundbar 652,Electronics,Acer,28518.15,33348.04,5.9,0.33,23.52,SUP022
+P00079,LG 4K Smart TV 127,Electronics,LG,46735.04,53674.45,4.32,0.33,3.44,SUP014
+P00080,Yonex Badminton Racquet 637,Sports & Fitness,Yonex,2646.23,3568.22,5.89,0.23,10.35,SUP013
+P00081,JBL Bluetooth Speaker 45,Electronics,JBL,21151.31,24759.65,3.22,0.33,10.52,SUP024
+P00082,@home Wardrobe 704,Home & Furniture,@home,10616.32,14167.39,3.83,0.26,16.23,SUP018
+P00083,Bosch Front Load Washing Machine 436,Appliances,Bosch,18622.59,23322.3,3.2,0.24,15.69,SUP006
+P00084,Voltas Front Load Washing Machine 920,Appliances,Voltas,29077.73,36224.21,4.55,0.24,12.64,SUP008
+P00085,Haldiram's Basmati Rice 5kg 498,Grocery,Haldiram's,725.89,842.67,21.75,0.12,2.98,SUP017
+P00086,Samsung Fast Charger 340,Mobiles & Accessories,Samsung,59176.53,64239.48,4.81,0.35,4.41,SUP001
+P00087,Fortune Whole Wheat Atta 857,Grocery,Fortune,676.14,758.57,21.54,0.12,9.37,SUP004
+P00088,Tata Refined Sunflower Oil 957,Grocery,Tata,552.73,627.66,12.3,0.12,24.89,SUP002
+P00089,Durian Bookshelf 393,Home & Furniture,Durian,14406.69,19557.56,4.53,0.26,16.06,SUP018
+P00090,Roadster Cotton Kurta 174,Fashion,Roadster,1138.5,1716.32,4.13,0.3,20.92,SUP012
+P00091,Kore Resistance Band Set 150,Sports & Fitness,Kore,4580.96,6610.26,8.92,0.23,11.26,SUP001
+P00092,L'Oreal Vitamin C Serum 474,Beauty & Personal Care,L'Oreal,292.12,434.92,9.51,0.2,3.85,SUP019
+P00093,HRX Slim Fit Shirt 298,Fashion,HRX,4105.19,5596.99,5.03,0.3,12.31,SUP017
+P00094,Boldfit Football 844,Sports & Fitness,Boldfit,4098.33,5202.2,2.95,0.23,15.98,SUP018
+P00095,Bosch Air Conditioner 372,Appliances,Bosch,37454.81,46787.7,1.23,0.24,13.53,SUP005
+P00096,Yonex Resistance Band Set 852,Sports & Fitness,Yonex,6802.49,9258.13,7.15,0.23,12.67,SUP022
+P00097,Wakefit Wardrobe 503,Home & Furniture,Wakefit,26668.3,37070.4,2.7,0.26,13.33,SUP005
+P00098,LG Double Door Refrigerator 185,Appliances,LG,23002.99,29196.63,3.52,0.24,8.54,SUP015
+P00099,HRX Denim Jacket 314,Fashion,HRX,355.5,578.84,7.83,0.3,15.0,SUP014
+P00100,LG Air Conditioner 981,Appliances,LG,16590.78,20595.7,3.54,0.24,15.55,SUP006
+P00101,Decathlon Cricket Kit 962,Sports & Fitness,Decathlon,6163.03,8984.25,6.77,0.23,19.57,SUP010
+P00102,Durian Bookshelf 557,Home & Furniture,Durian,5666.22,7742.79,3.2,0.26,16.39,SUP002
+P00103,Wakefit Bed with Storage 751,Home & Furniture,Wakefit,44315.27,56619.21,4.67,0.26,8.73,SUP012
+P00104,Redmi Bluetooth Neckband 984,Mobiles & Accessories,Redmi,4304.87,4983.9,6.9,0.35,11.68,SUP017
+P00105,U.S. Polo Assn. Running Shoes 559,Fashion,U.S. Polo Assn.,1999.2,3174.94,3.1,0.3,20.07,SUP008
+P00106,U.S. Polo Assn. Casual Sneakers 58,Fashion,U.S. Polo Assn.,3745.98,5098.62,6.85,0.3,2.82,SUP014
+P00107,Nike Resistance Band Set 741,Sports & Fitness,Nike,5792.09,8270.85,7.92,0.23,20.04,SUP024
+P00108,Nilkamal Wardrobe 14,Home & Furniture,Nilkamal,11013.36,14806.14,5.29,0.26,12.91,SUP006
+P00109,Van Heusen Cotton Kurta 674,Fashion,Van Heusen,375.83,552.62,13.64,0.3,6.02,SUP008
+P00110,Durian Bookshelf 593,Home & Furniture,Durian,16052.6,22323.85,2.49,0.26,9.98,SUP003
+P00111,realme Smartwatch 348,Mobiles & Accessories,realme,62229.19,68374.91,2.85,0.35,17.97,SUP014
+P00112,Durian Wardrobe 145,Home & Furniture,Durian,44944.21,57495.89,3.04,0.26,14.41,SUP006
+P00113,Acer Laptop 915,Electronics,Acer,63677.53,74593.49,3.75,0.33,12.47,SUP022
+P00114,HRX Denim Jacket 27,Fashion,HRX,1802.86,2470.19,4.63,0.3,11.39,SUP008
+P00115,Nike Football 753,Sports & Fitness,Nike,2943.35,3963.77,8.67,0.23,13.57,SUP017
+P00116,Yonex Football 909,Sports & Fitness,Yonex,7206.88,9398.29,3.6,0.23,13.29,SUP005
+P00117,Nike Football 248,Sports & Fitness,Nike,4848.73,6789.63,3.4,0.23,8.13,SUP009
+P00118,LG Soundbar 793,Electronics,LG,78939.66,89516.76,4.93,0.33,19.62,SUP005
+P00119,Aashirvaad Basmati Rice 5kg 815,Grocery,Aashirvaad,444.34,555.12,18.49,0.12,22.57,SUP014
+P00120,Biba Denim Jacket 655,Fashion,Biba,1037.01,1574.86,3.32,0.3,23.89,SUP001
+P00121,The Man Company Body Lotion 111,Beauty & Personal Care,The Man Company,1139.13,1491.08,17.4,0.2,1.12,SUP003
+P00122,realme Smartwatch 319,Mobiles & Accessories,realme,5988.83,6740.5,7.16,0.35,1.37,SUP013
+P00123,Lakme Vitamin C Serum 214,Beauty & Personal Care,Lakme,1022.81,1345.13,13.47,0.2,7.62,SUP014
+P00124,@home Wardrobe 863,Home & Furniture,@home,19097.47,23305.26,1.56,0.26,0.13,SUP009
+P00125,boAt Fast Charger 781,Mobiles & Accessories,boAt,35030.89,39000.22,6.31,0.35,21.05,SUP011
+P00126,Whirlpool Mixer Grinder 685,Appliances,Whirlpool,18956.49,22397.52,2.92,0.24,5.78,SUP011
+P00127,Fortune Masala Tea 713,Grocery,Fortune,839.43,945.46,14.22,0.12,3.85,SUP019
+P00128,LG Mixer Grinder 196,Appliances,LG,9152.53,11618.65,1.04,0.24,0.88,SUP012
+P00129,LG Soundbar 593,Electronics,LG,56573.14,63870.89,4.98,0.33,21.25,SUP022
+P00130,Nilkamal Bed with Storage 774,Home & Furniture,Nilkamal,38489.6,51723.24,1.81,0.26,21.4,SUP006
+P00131,Allen Solly Casual Sneakers 983,Fashion,Allen Solly,4154.87,6175.54,9.84,0.3,9.1,SUP005
+P00132,Britannia Basmati Rice 5kg 223,Grocery,Britannia,307.01,375.75,17.01,0.12,10.41,SUP011
+P00133,Fortune Basmati Rice 5kg 28,Grocery,Fortune,97.95,110.08,11.93,0.12,4.22,SUP003
+P00134,Nestle Gold Full Cream Milk 890,Grocery,Nestle,646.04,785.59,11.34,0.12,14.89,SUP017
+P00135,LG Home Theatre System 511,Electronics,LG,14647.24,17330.2,2.21,0.33,24.8,SUP010
+P00136,Roadster Running Shoes 135,Fashion,Roadster,320.46,528.09,9.6,0.3,22.44,SUP010
+P00137,Motorola Smartwatch 59,Mobiles & Accessories,Motorola,38229.73,43665.2,4.73,0.35,14.9,SUP014
+P00138,Sony 4K Smart TV 599,Electronics,Sony,60398.65,72499.48,1.13,0.33,5.86,SUP003
+P00139,Himalaya Vitamin C Serum 401,Beauty & Personal Care,Himalaya,708.79,1029.65,11.3,0.2,16.97,SUP010
+P00140,IFB Front Load Washing Machine 424,Appliances,IFB,31961.09,39906.45,4.93,0.24,12.91,SUP025
+P00141,Nivia Football 103,Sports & Fitness,Nivia,6429.42,8806.07,4.26,0.23,22.25,SUP016
+P00142,Aashirvaad Basmati Rice 5kg 186,Grocery,Aashirvaad,623.85,710.83,24.23,0.12,5.07,SUP015
+P00143,Reebok Football 735,Sports & Fitness,Reebok,7326.89,9516.12,4.76,0.23,21.97,SUP013
+P00144,Aashirvaad Refined Sunflower Oil 784,Grocery,Aashirvaad,479.81,583.65,19.62,0.12,14.29,SUP012
+P00145,Nilkamal Wardrobe 108,Home & Furniture,Nilkamal,40736.41,56750.48,4.99,0.26,5.19,SUP024
+P00146,Pepperfry Bed with Storage 721,Home & Furniture,Pepperfry,1627.42,2304.17,2.89,0.26,22.2,SUP024
+P00147,Aashirvaad Basmati Rice 5kg 414,Grocery,Aashirvaad,307.65,368.91,16.62,0.12,15.08,SUP011
+P00148,Bajaj Double Door Refrigerator 399,Appliances,Bajaj,26678.46,31362.57,2.51,0.24,3.36,SUP024
+P00149,HRX Cotton Kurta 250,Fashion,HRX,3159.39,4586.94,14.41,0.3,2.56,SUP003
+P00150,Durian Bed with Storage 193,Home & Furniture,Durian,39718.0,50665.18,2.01,0.26,13.1,SUP008
+P00151,OPPO 5G Smartphone 958,Mobiles & Accessories,OPPO,19271.63,20900.42,6.81,0.35,16.35,SUP008
+P00152,Aashirvaad Basmati Rice 5kg 766,Grocery,Aashirvaad,126.3,145.6,10.9,0.12,21.93,SUP018
+P00153,Plum Vitamin C Serum 81,Beauty & Personal Care,Plum,2462.96,3806.73,17.29,0.2,3.53,SUP016
+P00154,Yonex Resistance Band Set 619,Sports & Fitness,Yonex,4557.32,5798.3,7.77,0.23,13.6,SUP012
+P00155,Samsung Double Door Refrigerator 587,Appliances,Samsung,15273.19,17882.47,4.41,0.24,18.4,SUP007
+P00156,Fortune Gold Full Cream Milk 773,Grocery,Fortune,352.99,413.93,20.2,0.12,5.25,SUP013
+P00157,Bajaj Double Door Refrigerator 271,Appliances,Bajaj,8218.86,10409.15,1.4,0.24,21.18,SUP007
+P00158,Samsung Mixer Grinder 712,Appliances,Samsung,23801.81,28764.05,1.98,0.24,21.3,SUP013
+P00159,Prestige Double Door Refrigerator 252,Appliances,Prestige,19851.94,24199.72,1.99,0.24,4.12,SUP009
+P00160,iQOO True Wireless Earbuds 495,Mobiles & Accessories,iQOO,62327.23,72158.47,7.18,0.35,13.29,SUP023
+P00161,Solimo 3-Seater Sofa 951,Home & Furniture,Solimo,19894.6,24795.65,1.63,0.26,12.1,SUP019
+P00162,Plum Face Wash 260,Beauty & Personal Care,Plum,492.58,708.63,6.12,0.2,0.85,SUP005
+P00163,Nilkamal 3-Seater Sofa 469,Home & Furniture,Nilkamal,41308.07,53052.23,4.04,0.26,10.07,SUP024
+P00164,Haier Mixer Grinder 743,Appliances,Haier,11761.11,15036.8,4.27,0.24,11.77,SUP017
+P00165,Mamaearth Sunscreen SPF 50 348,Beauty & Personal Care,Mamaearth,2309.6,3199.6,3.75,0.2,19.88,SUP009
+P00166,Haldiram's Basmati Rice 5kg 923,Grocery,Haldiram's,683.23,835.71,9.24,0.12,11.01,SUP014
+P00167,Van Heusen Casual Sneakers 71,Fashion,Van Heusen,259.81,428.17,5.65,0.3,11.51,SUP005
+P00168,Mamaearth Face Wash 921,Beauty & Personal Care,Mamaearth,465.58,678.85,8.89,0.2,8.05,SUP002
+P00169,Pepperfry 3-Seater Sofa 477,Home & Furniture,Pepperfry,21072.81,28490.23,4.0,0.26,23.76,SUP011
+P00170,Voltas Microwave Oven 49,Appliances,Voltas,11228.93,13903.12,4.38,0.24,11.3,SUP020
+P00171,W Cotton Kurta 662,Fashion,W,3435.88,5660.76,8.91,0.3,7.63,SUP009
+P00172,U.S. Polo Assn. Casual Sneakers 565,Fashion,U.S. Polo Assn.,1806.93,2839.69,7.24,0.3,18.02,SUP010
+P00173,Haier Microwave Oven 348,Appliances,Haier,50056.99,60294.1,3.59,0.24,10.26,SUP025
+P00174,@home 3-Seater Sofa 658,Home & Furniture,@home,6185.83,7660.19,4.34,0.26,16.61,SUP025
+P00175,Roadster Casual Sneakers 861,Fashion,Roadster,1637.82,2308.25,12.12,0.3,6.24,SUP012
+P00176,Nike Cricket Kit 290,Sports & Fitness,Nike,1296.09,1702.14,2.11,0.23,16.9,SUP002
+P00177,Kore Resistance Band Set 952,Sports & Fitness,Kore,1859.42,2556.1,6.61,0.23,15.29,SUP017
+P00178,Fortune Refined Sunflower Oil 405,Grocery,Fortune,574.17,666.99,24.52,0.12,17.17,SUP018
+P00179,LG Double Door Refrigerator 449,Appliances,LG,23083.27,29171.81,3.44,0.24,23.4,SUP023
+P00180,Himalaya Vitamin C Serum 635,Beauty & Personal Care,Himalaya,873.32,1254.21,10.35,0.2,8.42,SUP024
+P00181,Mamaearth Sunscreen SPF 50 977,Beauty & Personal Care,Mamaearth,2290.41,3506.55,15.65,0.2,18.65,SUP016
+P00182,Reebok Resistance Band Set 247,Sports & Fitness,Reebok,6171.94,8397.17,4.65,0.23,16.16,SUP003
+P00183,Fortune Basmati Rice 5kg 226,Grocery,Fortune,254.29,304.18,13.2,0.12,20.42,SUP007
+P00184,W Denim Jacket 798,Fashion,W,962.72,1301.84,6.37,0.3,21.0,SUP018
+P00185,LG Laptop 997,Electronics,LG,70141.56,78129.6,3.73,0.33,4.9,SUP016
+P00186,Cosco Cricket Kit 980,Sports & Fitness,Cosco,3555.56,4951.2,8.46,0.23,1.83,SUP011
+P00187,Cosco Cricket Kit 666,Sports & Fitness,Cosco,6388.68,8383.52,8.08,0.23,2.88,SUP011
+P00188,Britannia Basmati Rice 5kg 505,Grocery,Britannia,183.43,215.54,16.04,0.12,17.19,SUP018
+P00189,WOW Face Wash 104,Beauty & Personal Care,WOW,2480.9,3845.04,10.75,0.2,18.22,SUP011
+P00190,iQOO True Wireless Earbuds 60,Mobiles & Accessories,iQOO,23305.36,26244.65,6.25,0.35,16.84,SUP004
+P00191,Nivea Sunscreen SPF 50 422,Beauty & Personal Care,Nivea,1989.91,3000.84,15.32,0.2,8.11,SUP025
+P00192,Dell Soundbar 152,Electronics,Dell,72522.27,84049.75,7.25,0.33,21.99,SUP009
+P00193,Nivia Badminton Racquet 62,Sports & Fitness,Nivia,1482.15,2034.67,1.54,0.23,0.11,SUP007
+P00194,OPPO Smartwatch 824,Mobiles & Accessories,OPPO,54561.74,59116.76,8.52,0.35,4.28,SUP002
+P00195,Redmi Fast Charger 820,Mobiles & Accessories,Redmi,60464.87,70279.07,7.39,0.35,2.41,SUP012
+P00196,@home Study Table 508,Home & Furniture,@home,33358.21,42414.64,4.76,0.26,18.78,SUP025
+P00197,Aashirvaad Whole Wheat Atta 753,Grocery,Aashirvaad,350.08,402.06,9.17,0.12,3.06,SUP004
+P00198,Lakme Face Wash 404,Beauty & Personal Care,Lakme,523.1,702.96,15.35,0.2,24.76,SUP007
+P00199,Mamaearth Face Wash 875,Beauty & Personal Care,Mamaearth,1668.5,2356.23,8.89,0.2,24.39,SUP005
+P00200,Reebok Football 295,Sports & Fitness,Reebok,1780.72,2316.33,6.25,0.23,18.39,SUP003
+P00201,boAt Fast Charger 36,Mobiles & Accessories,boAt,39237.25,45627.22,9.11,0.35,1.33,SUP016
+P00202,Boldfit Cricket Kit 759,Sports & Fitness,Boldfit,4043.68,5296.58,4.35,0.23,20.68,SUP008
+P00203,Adidas Slim Fit Shirt 321,Fashion,Adidas,1887.82,2701.87,8.78,0.3,14.15,SUP019
+P00204,Nestle Refined Sunflower Oil 894,Grocery,Nestle,87.49,98.0,9.25,0.12,16.19,SUP011
+P00205,Mamaearth Sunscreen SPF 50 935,Beauty & Personal Care,Mamaearth,2236.63,3170.4,10.14,0.2,1.58,SUP016
+P00206,Allen Solly Slim Fit Shirt 221,Fashion,Allen Solly,2739.53,3859.03,10.83,0.3,2.57,SUP003
+P00207,Godrej Interio Bookshelf 860,Home & Furniture,Godrej Interio,19369.39,24312.99,1.67,0.26,8.08,SUP009
+P00208,Levis Casual Sneakers 613,Fashion,Levis,484.9,706.6,5.44,0.3,5.21,SUP011
+P00209,Plum Face Wash 124,Beauty & Personal Care,Plum,2331.2,3088.74,4.61,0.2,15.53,SUP002
+P00210,Nilkamal Bookshelf 530,Home & Furniture,Nilkamal,38445.77,52703.55,5.1,0.26,24.92,SUP011
+P00211,Nilkamal 3-Seater Sofa 580,Home & Furniture,Nilkamal,18416.16,23660.85,5.74,0.26,20.17,SUP012
+P00212,Cosco Cricket Kit 970,Sports & Fitness,Cosco,7835.48,10692.98,4.95,0.23,9.58,SUP011
+P00213,L'Oreal Herbal Shampoo 201,Beauty & Personal Care,L'Oreal,1503.41,2002.56,7.82,0.2,2.67,SUP013
+P00214,Himalaya Vitamin C Serum 436,Beauty & Personal Care,Himalaya,1514.39,2104.5,9.13,0.2,15.87,SUP020
+P00215,Wakefit Study Table 456,Home & Furniture,Wakefit,42015.42,54548.55,2.65,0.26,14.24,SUP020
+P00216,@home Bed with Storage 351,Home & Furniture,@home,29848.65,39724.97,2.6,0.26,9.53,SUP001
+P00217,LG Mixer Grinder 222,Appliances,LG,10634.53,13229.41,2.56,0.24,14.11,SUP017
+P00218,Himalaya Face Wash 600,Beauty & Personal Care,Himalaya,717.81,1081.52,16.91,0.2,16.76,SUP023
+P00219,Nivia Football 582,Sports & Fitness,Nivia,7580.5,10159.93,8.39,0.23,0.22,SUP022
+P00220,LG Double Door Refrigerator 745,Appliances,LG,37998.28,46477.48,1.11,0.24,21.32,SUP009
+P00221,JBL Bluetooth Speaker 337,Electronics,JBL,42986.65,47313.55,6.51,0.33,21.98,SUP020
+P00222,Yonex Badminton Racquet 776,Sports & Fitness,Yonex,4651.1,6103.07,2.28,0.23,12.47,SUP021
+P00223,Mi Bluetooth Speaker 195,Electronics,Mi,86956.6,105707.02,6.99,0.33,14.9,SUP010
+P00224,Kore Badminton Racquet 486,Sports & Fitness,Kore,3183.37,4053.24,7.49,0.23,14.15,SUP022
+P00225,Patanjali Gold Full Cream Milk 423,Grocery,Patanjali,558.27,656.11,12.4,0.12,3.05,SUP016
+P00226,Reebok Resistance Band Set 874,Sports & Fitness,Reebok,6750.42,8879.58,3.43,0.23,0.7,SUP019
+P00227,Boldfit Resistance Band Set 670,Sports & Fitness,Boldfit,3870.3,5452.2,2.31,0.23,9.48,SUP019
+P00228,The Man Company Sunscreen SPF 50 221,Beauty & Personal Care,The Man Company,196.23,277.75,10.83,0.2,3.58,SUP020
+P00229,Samsung Front Load Washing Machine 410,Appliances,Samsung,20108.31,23377.63,4.79,0.24,20.24,SUP024
+P00230,Wakefit Bed with Storage 637,Home & Furniture,Wakefit,4184.65,5650.67,5.36,0.26,10.78,SUP022
+P00231,JBL Laptop 958,Electronics,JBL,5159.1,6005.98,7.95,0.33,1.11,SUP011
+P00232,Dell Soundbar 935,Electronics,Dell,28555.31,34505.06,1.32,0.33,20.95,SUP015
+P00233,Nivia Resistance Band Set 539,Sports & Fitness,Nivia,760.65,1096.84,2.25,0.23,22.9,SUP017
+P00234,The Man Company Face Wash 968,Beauty & Personal Care,The Man Company,1053.36,1486.56,3.95,0.2,7.84,SUP022
+P00235,Mamaearth Body Lotion 867,Beauty & Personal Care,Mamaearth,786.51,1212.09,4.41,0.2,17.73,SUP010
+P00236,Prestige Air Conditioner 135,Appliances,Prestige,53717.75,67656.44,4.77,0.24,19.92,SUP008
+P00237,Adidas Denim Jacket 707,Fashion,Adidas,2559.86,4146.15,14.63,0.3,12.13,SUP019
+P00238,@home 3-Seater Sofa 98,Home & Furniture,@home,17753.56,22943.28,2.96,0.26,2.03,SUP024
+P00239,Prestige Front Load Washing Machine 44,Appliances,Prestige,25531.08,32449.72,3.45,0.24,4.02,SUP023
+P00240,Mamaearth Body Lotion 935,Beauty & Personal Care,Mamaearth,2441.77,3307.81,10.74,0.2,24.43,SUP004
+P00241,realme 5G Smartphone 202,Mobiles & Accessories,realme,4864.56,5328.45,2.63,0.35,14.26,SUP023
+P00242,U.S. Polo Assn. Denim Jacket 801,Fashion,U.S. Polo Assn.,2533.18,3895.52,4.62,0.3,15.48,SUP020
+P00243,Britannia Refined Sunflower Oil 233,Grocery,Britannia,855.49,996.84,6.81,0.12,11.0,SUP004
+P00244,Bajaj Microwave Oven 190,Appliances,Bajaj,21926.08,27412.0,3.16,0.24,8.09,SUP001
+P00245,HP Home Theatre System 723,Electronics,HP,61211.1,70525.66,2.6,0.33,4.3,SUP006
+P00246,Patanjali Refined Sunflower Oil 523,Grocery,Patanjali,193.48,219.4,14.95,0.12,12.75,SUP024
+P00247,Decathlon Football 427,Sports & Fitness,Decathlon,7960.07,10840.38,4.82,0.23,1.76,SUP019
+P00248,Haldiram's Refined Sunflower Oil 980,Grocery,Haldiram's,228.33,274.66,6.02,0.12,11.78,SUP015
+P00249,Wakefit Bookshelf 651,Home & Furniture,Wakefit,21714.92,26754.22,5.11,0.26,19.57,SUP016
+P00250,Decathlon Cricket Kit 353,Sports & Fitness,Decathlon,5212.11,7541.57,6.05,0.23,16.6,SUP011
+P00251,WOW Body Lotion 813,Beauty & Personal Care,WOW,2405.41,3350.08,9.38,0.2,12.69,SUP023
+P00252,OnePlus True Wireless Earbuds 139,Mobiles & Accessories,OnePlus,32990.1,36340.23,9.45,0.35,5.04,SUP004
+P00253,Van Heusen Denim Jacket 119,Fashion,Van Heusen,3425.9,5544.5,5.54,0.3,23.91,SUP008
+P00254,Mamaearth Face Wash 883,Beauty & Personal Care,Mamaearth,574.4,788.55,10.94,0.2,19.04,SUP006
+P00255,Dell Bluetooth Speaker 155,Electronics,Dell,17415.89,19905.0,4.35,0.33,6.91,SUP022
+P00256,boAt 4K Smart TV 79,Electronics,boAt,13200.31,15391.94,5.94,0.33,12.08,SUP014
+P00257,Dell Laptop 821,Electronics,Dell,67823.13,81239.14,4.14,0.33,6.09,SUP018
+P00258,Levis Cotton Kurta 248,Fashion,Levis,999.51,1489.52,7.1,0.3,18.82,SUP023
+P00259,boAt Home Theatre System 309,Electronics,boAt,26006.78,29015.94,4.07,0.33,9.29,SUP005
+P00260,Cosco Resistance Band Set 645,Sports & Fitness,Cosco,6176.3,9041.49,4.98,0.23,21.69,SUP025
+P00261,Bajaj Microwave Oven 792,Appliances,Bajaj,34439.08,43588.56,4.63,0.24,11.58,SUP004
+P00262,Lakme Vitamin C Serum 412,Beauty & Personal Care,Lakme,137.93,195.76,10.41,0.2,14.25,SUP019
+P00263,The Man Company Face Wash 794,Beauty & Personal Care,The Man Company,2107.87,2797.49,6.38,0.2,21.21,SUP018
+P00264,Plum Face Wash 407,Beauty & Personal Care,Plum,2194.99,3341.82,7.72,0.2,6.78,SUP021
+P00265,The Man Company Body Lotion 303,Beauty & Personal Care,The Man Company,2353.13,3261.82,11.36,0.2,4.33,SUP004
+P00266,LG 4K Smart TV 834,Electronics,LG,7099.19,8617.81,3.82,0.33,17.07,SUP024
+P00267,Tata Masala Tea 913,Grocery,Tata,182.65,223.85,10.29,0.12,3.59,SUP020
+P00268,Van Heusen Running Shoes 963,Fashion,Van Heusen,3711.51,5272.49,5.59,0.3,6.69,SUP003
+P00269,OPPO Smartwatch 773,Mobiles & Accessories,OPPO,31127.32,34405.13,9.76,0.35,9.52,SUP014
+P00270,Britannia Basmati Rice 5kg 993,Grocery,Britannia,215.38,241.35,16.42,0.12,1.06,SUP021
+P00271,Sony 4K Smart TV 400,Electronics,Sony,47664.49,57063.59,1.62,0.33,18.7,SUP012
+P00272,boAt Laptop 484,Electronics,boAt,18617.61,20916.13,3.87,0.33,21.56,SUP010
+P00273,Bosch Air Conditioner 408,Appliances,Bosch,38529.38,49232.39,2.65,0.24,23.09,SUP007
+P00274,realme Fast Charger 473,Mobiles & Accessories,realme,51492.34,59497.2,2.98,0.35,5.09,SUP013
+P00275,LG Soundbar 907,Electronics,LG,42816.87,48585.65,6.57,0.33,20.09,SUP025
+P00276,Fortune Gold Full Cream Milk 943,Grocery,Fortune,268.5,309.61,7.7,0.12,10.11,SUP016
+P00277,Cosco Yoga Mat 170,Sports & Fitness,Cosco,6819.37,9150.33,1.28,0.23,16.02,SUP019
+P00278,Durian Study Table 849,Home & Furniture,Durian,9965.49,13986.36,5.25,0.26,5.77,SUP020
+P00279,LG Microwave Oven 761,Appliances,LG,47946.93,57045.05,3.48,0.24,3.29,SUP020
+P00280,OnePlus 5G Smartphone 877,Mobiles & Accessories,OnePlus,65788.03,75842.91,6.41,0.35,13.23,SUP011
+P00281,Nike Badminton Racquet 126,Sports & Fitness,Nike,6617.9,9412.98,3.3,0.23,6.03,SUP020
+P00282,Adidas Casual Sneakers 788,Fashion,Adidas,2397.43,3655.59,7.14,0.3,22.84,SUP009
+P00283,Mamaearth Body Lotion 196,Beauty & Personal Care,Mamaearth,1867.66,2744.51,10.85,0.2,19.9,SUP015
+P00284,Wakefit Study Table 358,Home & Furniture,Wakefit,32649.53,45825.97,5.92,0.26,15.99,SUP008
+P00285,Aashirvaad Whole Wheat Atta 875,Grocery,Aashirvaad,888.37,1005.81,13.25,0.12,7.17,SUP024
+P00286,Prestige Air Conditioner 308,Appliances,Prestige,22164.06,28312.31,4.53,0.24,19.28,SUP019
+P00287,boAt Bluetooth Speaker 34,Electronics,boAt,55359.93,65270.34,6.81,0.33,5.58,SUP015
+P00288,Nike Badminton Racquet 354,Sports & Fitness,Nike,4639.13,6327.72,1.44,0.23,21.64,SUP012
+P00289,Lakme Herbal Shampoo 751,Beauty & Personal Care,Lakme,1051.45,1615.33,3.76,0.2,6.51,SUP014
+P00290,Prestige Microwave Oven 535,Appliances,Prestige,41490.82,52491.77,1.86,0.24,19.5,SUP020
+P00291,Mamaearth Vitamin C Serum 712,Beauty & Personal Care,Mamaearth,653.79,854.37,17.38,0.2,15.93,SUP007
+P00292,Biba Slim Fit Shirt 643,Fashion,Biba,2509.35,3746.06,7.84,0.3,5.12,SUP021
+P00293,Motorola 5G Smartphone 149,Mobiles & Accessories,Motorola,57105.04,63669.63,7.79,0.35,24.31,SUP008
+P00294,Acer Soundbar 219,Electronics,Acer,83126.98,94753.08,2.18,0.33,2.34,SUP004
+P00295,LG 4K Smart TV 141,Electronics,LG,8274.8,10085.15,1.52,0.33,20.7,SUP019
+P00296,Haldiram's Basmati Rice 5kg 641,Grocery,Haldiram's,703.74,845.91,22.64,0.12,13.1,SUP018
+P00297,Nike Yoga Mat 177,Sports & Fitness,Nike,3744.92,4979.23,4.74,0.23,19.93,SUP009
+P00298,Nivea Body Lotion 336,Beauty & Personal Care,Nivea,468.48,637.88,15.63,0.2,17.18,SUP017
+P00299,Britannia Whole Wheat Atta 224,Grocery,Britannia,97.64,119.07,11.15,0.12,17.25,SUP019
+P00300,Patanjali Basmati Rice 5kg 558,Grocery,Patanjali,286.67,342.27,10.8,0.12,15.58,SUP020
+P00301,Solimo Bookshelf 677,Home & Furniture,Solimo,28285.46,35272.42,4.47,0.26,17.1,SUP024
+P00302,LG Mixer Grinder 229,Appliances,LG,25571.83,30767.38,1.35,0.24,11.08,SUP022
+P00303,WOW Face Wash 762,Beauty & Personal Care,WOW,668.95,1008.4,11.19,0.2,11.87,SUP011
+P00304,Haier Mixer Grinder 532,Appliances,Haier,34769.07,44178.84,2.97,0.24,15.09,SUP006
+P00305,Nike Badminton Racquet 921,Sports & Fitness,Nike,853.25,1167.76,4.85,0.23,12.39,SUP003
+P00306,Haier Microwave Oven 224,Appliances,Haier,52989.04,64041.23,1.72,0.24,2.47,SUP015
+P00307,LG Air Conditioner 41,Appliances,LG,24779.51,30974.43,3.93,0.24,14.29,SUP017
+P00308,Cosco Yoga Mat 332,Sports & Fitness,Cosco,7546.29,9723.35,6.01,0.23,16.07,SUP018
+P00309,Puma Casual Sneakers 504,Fashion,Puma,3478.48,4936.67,13.78,0.3,18.93,SUP001
+P00310,Durian Study Table 257,Home & Furniture,Durian,44947.99,56849.73,2.43,0.26,6.65,SUP018
+P00311,Haldiram's Basmati Rice 5kg 641,Grocery,Haldiram's,894.36,1116.82,15.54,0.12,21.51,SUP020
+P00312,Wakefit Study Table 309,Home & Furniture,Wakefit,9651.41,12794.95,5.16,0.26,11.05,SUP019
+P00313,Acer Bluetooth Speaker 276,Electronics,Acer,88684.11,107195.39,6.59,0.33,8.09,SUP014
+P00314,Haldiram's Refined Sunflower Oil 413,Grocery,Haldiram's,517.88,614.06,17.73,0.12,18.75,SUP001
+P00315,Nivea Vitamin C Serum 851,Beauty & Personal Care,Nivea,893.62,1190.13,5.83,0.2,11.21,SUP013
+P00316,realme Bluetooth Neckband 322,Mobiles & Accessories,realme,53514.87,60760.68,2.21,0.35,4.51,SUP017
+P00317,Van Heusen Casual Sneakers 585,Fashion,Van Heusen,1418.88,1943.13,2.71,0.3,0.64,SUP015
+P00318,Motorola Smartwatch 447,Mobiles & Accessories,Motorola,12144.7,13852.93,6.45,0.35,1.89,SUP015
+P00319,Durian Wardrobe 903,Home & Furniture,Durian,40251.53,49195.55,1.89,0.26,13.78,SUP013
+P00320,Tata Gold Full Cream Milk 602,Grocery,Tata,206.43,248.91,19.5,0.12,23.83,SUP014
+P00321,L'Oreal Body Lotion 231,Beauty & Personal Care,L'Oreal,820.65,1164.76,8.39,0.2,1.24,SUP009
+P00322,vivo Fast Charger 646,Mobiles & Accessories,vivo,50231.54,54342.68,6.39,0.35,15.3,SUP016
+P00323,Britannia Masala Tea 479,Grocery,Britannia,735.15,891.39,7.06,0.12,15.12,SUP008
+P00324,Tata Gold Full Cream Milk 419,Grocery,Tata,67.02,77.01,14.1,0.12,4.5,SUP013
+P00325,Lenovo Laptop 27,Electronics,Lenovo,83460.43,93823.03,7.51,0.33,23.13,SUP011
+P00326,Bajaj Front Load Washing Machine 905,Appliances,Bajaj,2441.16,3049.48,4.88,0.24,24.27,SUP018
+P00327,Mi Bluetooth Speaker 617,Electronics,Mi,8877.74,10670.82,5.3,0.33,10.49,SUP023
+P00328,Haldiram's Whole Wheat Atta 731,Grocery,Haldiram's,163.61,198.98,6.5,0.12,21.24,SUP016
+P00329,Haier Front Load Washing Machine 735,Appliances,Haier,28922.98,34435.35,4.88,0.24,9.29,SUP004
+P00330,Cosco Badminton Racquet 736,Sports & Fitness,Cosco,1990.76,2700.87,8.54,0.23,5.46,SUP017
+P00331,Reebok Badminton Racquet 621,Sports & Fitness,Reebok,3212.14,4644.42,2.93,0.23,23.17,SUP009
+P00332,realme Fast Charger 97,Mobiles & Accessories,realme,48965.47,57717.13,3.51,0.35,16.89,SUP002
+P00333,Nivea Face Wash 291,Beauty & Personal Care,Nivea,270.99,384.49,14.31,0.2,8.44,SUP005
+P00334,Motorola Bluetooth Neckband 952,Mobiles & Accessories,Motorola,37124.93,43223.56,6.46,0.35,16.3,SUP025
+P00335,LG Soundbar 161,Electronics,LG,79888.18,92567.38,1.99,0.33,17.22,SUP011
+P00336,Samsung Home Theatre System 419,Electronics,Samsung,27220.25,30398.88,4.09,0.33,13.09,SUP006
+P00337,Allen Solly Running Shoes 654,Fashion,Allen Solly,386.19,592.54,6.86,0.3,2.81,SUP004
+P00338,Nilkamal Bookshelf 811,Home & Furniture,Nilkamal,11624.26,15243.0,2.97,0.26,9.51,SUP017
+P00339,The Man Company Body Lotion 351,Beauty & Personal Care,The Man Company,1524.44,1990.09,10.73,0.2,10.59,SUP020
+P00340,Amul Masala Tea 604,Grocery,Amul,711.05,883.49,5.45,0.12,19.12,SUP009
+P00341,Yonex Football 980,Sports & Fitness,Yonex,6364.18,8880.84,8.43,0.23,1.15,SUP003
+P00342,Puma Slim Fit Shirt 986,Fashion,Puma,2574.7,3589.19,6.37,0.3,0.5,SUP009
+P00343,OPPO 5G Smartphone 977,Mobiles & Accessories,OPPO,59221.84,65877.79,6.8,0.35,11.92,SUP017
+P00344,Redmi Smartwatch 508,Mobiles & Accessories,Redmi,5042.92,5923.12,4.66,0.35,2.36,SUP003
+P00345,Voltas Mixer Grinder 265,Appliances,Voltas,51281.61,62323.24,4.88,0.24,12.66,SUP007
+P00346,Britannia Masala Tea 395,Grocery,Britannia,419.98,485.64,22.11,0.12,13.32,SUP001
+P00347,Kore Badminton Racquet 397,Sports & Fitness,Kore,1735.92,2290.24,1.25,0.23,5.08,SUP012
+P00348,Nestle Refined Sunflower Oil 361,Grocery,Nestle,187.75,226.75,10.27,0.12,8.79,SUP005
+P00349,Biba Slim Fit Shirt 575,Fashion,Biba,2232.66,3256.09,13.08,0.3,5.42,SUP005
+P00350,iQOO Fast Charger 132,Mobiles & Accessories,iQOO,24971.55,27066.61,6.95,0.35,6.04,SUP003
+P00351,Nestle Basmati Rice 5kg 609,Grocery,Nestle,143.75,176.08,23.74,0.12,17.79,SUP019
+P00352,Pepperfry 3-Seater Sofa 523,Home & Furniture,Pepperfry,44680.67,57562.45,1.81,0.26,13.38,SUP013
+P00353,Mamaearth Body Lotion 271,Beauty & Personal Care,Mamaearth,1571.46,2048.45,16.92,0.2,1.09,SUP024
+P00354,Nivia Cricket Kit 286,Sports & Fitness,Nivia,2149.92,2822.84,1.26,0.23,4.9,SUP010
+P00355,Decathlon Cricket Kit 98,Sports & Fitness,Decathlon,3265.79,4336.88,3.62,0.23,0.73,SUP006
+P00356,Sony 4K Smart TV 508,Electronics,Sony,68585.15,83598.25,7.5,0.33,13.34,SUP006
+P00357,Yonex Badminton Racquet 895,Sports & Fitness,Yonex,6259.33,8925.14,7.75,0.23,10.92,SUP024
+P00358,OnePlus Fast Charger 103,Mobiles & Accessories,OnePlus,56738.31,63027.52,11.29,0.35,24.86,SUP015
+P00359,Durian Bookshelf 771,Home & Furniture,Durian,4741.23,6406.57,1.17,0.26,20.0,SUP009
+P00360,The Man Company Sunscreen SPF 50 419,Beauty & Personal Care,The Man Company,2156.46,2856.17,7.14,0.2,1.16,SUP017
+P00361,Aashirvaad Gold Full Cream Milk 879,Grocery,Aashirvaad,260.74,305.34,13.5,0.12,6.83,SUP014
+P00362,Plum Face Wash 423,Beauty & Personal Care,Plum,1122.33,1551.01,10.54,0.2,6.51,SUP003
+P00363,Adidas Denim Jacket 418,Fashion,Adidas,895.16,1302.98,9.36,0.3,20.62,SUP018
+P00364,Yonex Badminton Racquet 838,Sports & Fitness,Yonex,7767.24,11110.93,8.74,0.23,3.64,SUP003
+P00365,Boldfit Cricket Kit 270,Sports & Fitness,Boldfit,1608.83,2313.81,5.67,0.23,23.25,SUP005
+P00366,Nivia Cricket Kit 601,Sports & Fitness,Nivia,4641.74,6571.96,1.47,0.23,20.42,SUP018
+P00367,Samsung True Wireless Earbuds 127,Mobiles & Accessories,Samsung,36588.64,40461.76,8.63,0.35,23.43,SUP012
+P00368,W Running Shoes 720,Fashion,W,1040.39,1505.42,9.64,0.3,11.12,SUP006
+P00369,Godrej Interio Study Table 872,Home & Furniture,Godrej Interio,5224.33,7418.3,3.28,0.26,12.11,SUP002
+P00370,Plum Body Lotion 947,Beauty & Personal Care,Plum,310.62,412.66,16.94,0.2,7.94,SUP015
+P00371,Levis Denim Jacket 898,Fashion,Levis,2172.91,3204.71,4.47,0.3,6.41,SUP018
+P00372,Pepperfry 3-Seater Sofa 345,Home & Furniture,Pepperfry,3581.71,4397.45,4.27,0.26,16.42,SUP006
+P00373,Nilkamal Wardrobe 144,Home & Furniture,Nilkamal,42773.4,58586.85,5.38,0.26,8.07,SUP011
+P00374,Yonex Badminton Racquet 374,Sports & Fitness,Yonex,4436.23,5848.19,1.49,0.23,6.44,SUP009
+P00375,Aashirvaad Basmati Rice 5kg 393,Grocery,Aashirvaad,201.35,232.37,17.54,0.12,8.7,SUP023
+P00376,Haldiram's Basmati Rice 5kg 965,Grocery,Haldiram's,701.52,820.25,16.75,0.12,13.1,SUP020
+P00377,iQOO Bluetooth Neckband 700,Mobiles & Accessories,iQOO,55866.57,60663.94,6.29,0.35,24.67,SUP007
+P00378,L'Oreal Body Lotion 753,Beauty & Personal Care,L'Oreal,322.69,464.84,4.9,0.2,12.74,SUP013
+P00379,OnePlus Fast Charger 756,Mobiles & Accessories,OnePlus,61051.29,69775.2,8.12,0.35,21.08,SUP024
+P00380,Prestige Front Load Washing Machine 860,Appliances,Prestige,3738.09,4569.09,1.87,0.24,16.25,SUP009
+P00381,@home Study Table 212,Home & Furniture,@home,8951.83,11528.21,4.52,0.26,2.43,SUP004
+P00382,Wakefit 3-Seater Sofa 971,Home & Furniture,Wakefit,34530.94,43507.57,2.46,0.26,17.73,SUP008
+P00383,Bosch Front Load Washing Machine 730,Appliances,Bosch,18165.84,21597.12,1.16,0.24,1.18,SUP016
+P00384,Nivia Cricket Kit 476,Sports & Fitness,Nivia,5917.11,8687.74,7.05,0.23,12.2,SUP025
+P00385,L'Oreal Herbal Shampoo 601,Beauty & Personal Care,L'Oreal,879.14,1257.55,9.47,0.2,22.46,SUP008
+P00386,Bajaj Air Conditioner 358,Appliances,Bajaj,5989.14,7187.02,1.72,0.24,7.26,SUP002
+P00387,HRX Casual Sneakers 42,Fashion,HRX,3497.32,5242.09,13.95,0.3,1.77,SUP005
+P00388,OPPO True Wireless Earbuds 216,Mobiles & Accessories,OPPO,6999.0,7742.8,11.86,0.35,5.03,SUP011
+P00389,Mi Soundbar 827,Electronics,Mi,45823.85,53597.99,3.64,0.33,3.55,SUP003
+P00390,Aashirvaad Refined Sunflower Oil 571,Grocery,Aashirvaad,630.09,776.82,12.39,0.12,1.82,SUP001
+P00391,HRX Slim Fit Shirt 725,Fashion,HRX,543.84,852.94,5.74,0.3,1.75,SUP017
+P00392,Reebok Football 65,Sports & Fitness,Reebok,6733.58,8554.7,1.19,0.23,21.36,SUP021
+P00393,Tata Masala Tea 493,Grocery,Tata,507.0,595.93,20.91,0.12,12.57,SUP006
+P00394,Kore Cricket Kit 482,Sports & Fitness,Kore,1456.0,2098.19,1.41,0.23,22.17,SUP014
+P00395,Noise 5G Smartphone 372,Mobiles & Accessories,Noise,48437.2,53587.61,6.19,0.35,13.08,SUP015
+P00396,Puma Casual Sneakers 371,Fashion,Puma,1639.32,2363.32,5.26,0.3,3.83,SUP017
+P00397,Himalaya Sunscreen SPF 50 848,Beauty & Personal Care,Himalaya,1545.09,2060.3,13.41,0.2,6.01,SUP025
+P00398,Godrej Interio 3-Seater Sofa 986,Home & Furniture,Godrej Interio,982.61,1208.07,4.81,0.26,1.22,SUP023
+P00399,Biba Casual Sneakers 365,Fashion,Biba,555.41,848.47,11.83,0.3,0.37,SUP008
+P00400,Adidas Denim Jacket 132,Fashion,Adidas,4462.79,6369.67,4.46,0.3,13.93,SUP025
