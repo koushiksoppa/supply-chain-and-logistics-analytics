@@ -1,0 +1,24 @@
+Dimension,Value,Orders,Late_Deliveries,Avg_Delivery_Days,Avg_Delay_Days,On Time %
+Region,Central,11237,1353,3.7,0.24,88.0
+Region,North,22341,1825,3.06,0.16,91.8
+Region,South,22519,1827,2.89,0.15,91.9
+Region,West,11338,659,2.41,0.1,94.2
+Region,East,22344,1228,2.36,0.1,94.5
+Carrier,DTDC,14818,1177,2.86,0.15,92.1
+Carrier,XpressBees,15022,1192,2.84,0.15,92.1
+Carrier,Ecom Express,14960,1159,2.85,0.15,92.3
+Carrier,Ekart Logistics,14958,1139,2.85,0.14,92.4
+Carrier,Blue Dart,14947,1125,2.83,0.14,92.5
+Carrier,Delhivery,15074,1100,2.82,0.14,92.7
+Mode,Sea,8743,746,4.06,0.15,91.5
+Mode,Road,50866,4132,2.94,0.17,91.9
+Mode,Rail,16543,1173,2.61,0.12,92.9
+Mode,Air,13627,841,1.98,0.07,93.8
+Warehouse,WH05,11237,1353,3.7,0.24,88.0
+Warehouse,WH02,11360,1218,3.54,0.21,89.3
+Warehouse,WH01,11181,1015,3.3,0.18,90.9
+Warehouse,WH06,11160,810,2.82,0.14,92.7
+Warehouse,WH03,11153,776,2.87,0.13,93.0
+Warehouse,WH04,11338,659,2.41,0.1,94.2
+Warehouse,WH07,11159,609,2.23,0.09,94.5
+Warehouse,WH08,11191,452,1.86,0.06,96.0
