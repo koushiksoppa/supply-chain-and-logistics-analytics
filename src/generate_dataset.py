@@ -122,23 +122,68 @@ def _simulate_inventory(orders, products, warehouses, suppliers, rng):
     return orders
 
 
-def _simulate_logistics(orders, warehouses, rng):
+CATEGORY_MODE_WEIGHTS = {
+    # (Road, Rail, Air, Sea) — grocery never flies (perishable, low value);
+    # electronics/mobiles justify air freight; furniture leans on rail/sea.
+    "Grocery":                 [0.75, 0.20, 0.00, 0.05],
+    "Beauty & Personal Care":   [0.62, 0.25, 0.08, 0.05],
+    "Fashion":                  [0.50, 0.15, 0.25, 0.10],
+    "Sports & Fitness":          [0.55, 0.15, 0.20, 0.10],
+    "Appliances":                 [0.45, 0.20, 0.15, 0.20],
+    "Home & Furniture":            [0.45, 0.15, 0.10, 0.30],
+    "Electronics":                  [0.35, 0.15, 0.35, 0.15],
+    "Mobiles & Accessories":         [0.35, 0.10, 0.45, 0.10],
+}
+
+# Probability an order ships within the same region (short haul) vs. cross-region.
+# Grocery/beauty are distributed regionally; electronics/mobiles ship nationally
+# from fewer central warehouses.
+CATEGORY_SAME_REGION_PROB = {
+    "Grocery": 0.80, "Beauty & Personal Care": 0.70, "Fashion": 0.55,
+    "Sports & Fitness": 0.55, "Appliances": 0.50, "Home & Furniture": 0.50,
+    "Electronics": 0.40, "Mobiles & Accessories": 0.40,
+}
+
+
+def _simulate_logistics(orders, warehouses, products, rng):
     """Assign transportation mode/carrier, compute distance, ship/delivery
-    dates, cost, and derive Late Delivery Flag from mode reliability."""
+    dates, cost, and derive Late Delivery Flag from mode reliability.
+    Mode and distance are category-aware: a low-value grocery order has no
+    business flying across the country, while electronics/mobiles justify
+    air freight — matching how real logistics networks are actually run."""
     n = len(orders)
     wh_region = orders["Warehouse"].map(warehouses.set_index("Warehouse")["Region"])
+    categories = orders["Category"].values
 
     modes = list(config.TRANSPORT_MODES.keys())
-    mode_choice = rng.choice(modes, size=n, p=[0.45, 0.20, 0.15, 0.20])
+    mode_choice = np.empty(n, dtype=object)
+    is_same_region = np.zeros(n, dtype=bool)
+    for category, weights in CATEGORY_MODE_WEIGHTS.items():
+        mask = categories == category
+        n_cat = mask.sum()
+        if n_cat == 0:
+            continue
+        mode_choice[mask] = rng.choice(modes, size=n_cat, p=weights)
+        same_region_prob = CATEGORY_SAME_REGION_PROB[category]
+        is_same_region[mask] = rng.random(n_cat) < same_region_prob
+
     carrier_choice = rng.choice(config.CARRIERS, size=n)
 
-    # Distance: same-region deliveries are short, cross-region are long
-    is_same_region = (wh_region.values == rng.choice(config.REGIONS, size=n))
-    base_distance = np.where(is_same_region, rng.uniform(20, 300, n), rng.uniform(300, 3500, n))
+    # Distance: same-region deliveries are short; cross-region deliveries
+    # are capped shorter for regionally-stocked categories (grocery/beauty
+    # wouldn't realistically ship 3,000km cross-country) vs. nationally
+    # distributed categories (electronics/mobiles/furniture).
+    REGIONAL_CATEGORIES = {"Grocery", "Beauty & Personal Care"}
+    cross_region_max = np.where(np.isin(categories, list(REGIONAL_CATEGORIES)), 1200, 3500)
+    base_distance = np.where(
+        is_same_region,
+        rng.uniform(20, 300, n),
+        rng.uniform(300, cross_region_max, size=n),
+    )
     orders["Distance"] = np.round(base_distance, 1)
 
     speed = np.array([config.TRANSPORT_MODES[m]["speed_km_day"] for m in mode_choice])
-    cost_per_km = np.array([config.TRANSPORT_MODES[m]["cost_per_km"] for m in mode_choice])
+    cost_per_kg_km = np.array([config.TRANSPORT_MODES[m]["cost_per_kg_km"] for m in mode_choice])
     base_reliability = np.array([config.TRANSPORT_MODES[m]["reliability"] for m in mode_choice])
     carrier_mod = np.array([config.CARRIER_RELIABILITY_MODIFIER[c] for c in carrier_choice])
 
@@ -162,8 +207,14 @@ def _simulate_logistics(orders, warehouses, rng):
         (actual_days > promised_days) | is_late_roll, "Yes", "No"
     )
 
+    # Shipping cost = weight × distance × mode rate + flat handling fee —
+    # real freight pricing, not a distance-only formula. This is why a
+    # single lightweight item no longer costs the same to ship as a
+    # heavy bulk pallet of the same distance.
+    unit_weight = orders["Product ID"].map(products.set_index("Product ID")["Unit Weight KG"]).values
+    total_weight = unit_weight * orders["Order Quantity"].values
     orders["Shipping Cost"] = np.round(
-        orders["Distance"].values * cost_per_km * (1 + orders["Order Quantity"].values * 0.02), 2
+        orders["Distance"].values * cost_per_kg_km * total_weight + config.SHIPMENT_HANDLING_FEE, 2
     )
     return orders
 
@@ -226,7 +277,7 @@ def generate_dataset(n_orders: int = config.N_ORDERS, seed: int = config.RANDOM_
 
     orders = _assign_orders_to_product_warehouse(rng, n_orders, products, warehouses, customers)
     orders = _simulate_inventory(orders, products, warehouses, suppliers, rng)
-    orders = _simulate_logistics(orders, warehouses, rng)
+    orders = _simulate_logistics(orders, warehouses, products, rng)
     orders = _simulate_status_and_financials(orders, products, warehouses, suppliers, rng)
 
     orders["Order ID"] = [f"ORD{i:07d}" for i in range(1, len(orders) + 1)]

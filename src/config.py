@@ -75,15 +75,36 @@ REGION_HUB_CITY = {
 }
 
 # --------------------------------------------------------------------
-# Transportation modes: avg speed (km/day), cost per km (INR) per unit
-# weight, and base on-time reliability
+# Realistic per-category unit weight ranges (kg) — needed so shipping cost
+# (which scales with weight × distance, like real freight pricing) doesn't
+# charge a lightweight item the same as a heavy one.
+# --------------------------------------------------------------------
+CATEGORY_UNIT_WEIGHT_KG = {
+    "Mobiles & Accessories": (0.05, 1.0),
+    "Electronics":            (0.5, 15.0),
+    "Fashion":                 (0.1, 1.5),
+    "Home & Furniture":         (5.0, 80.0),
+    "Appliances":                (4.0, 60.0),
+    "Grocery":                    (0.2, 5.0),
+    "Beauty & Personal Care":      (0.05, 2.0),
+    "Sports & Fitness":              (0.2, 10.0),
+}
+
+# --------------------------------------------------------------------
+# Transportation modes: avg speed (km/day), cost per KG per KM (₹) — real
+# freight pricing scales with weight carried, not distance alone — and
+# base on-time reliability
 # --------------------------------------------------------------------
 TRANSPORT_MODES = {
-    "Road": {"speed_km_day": 450,  "cost_per_km": 3.2,  "reliability": 0.90},
-    "Rail": {"speed_km_day": 600,  "cost_per_km": 2.1,  "reliability": 0.85},
-    "Air":  {"speed_km_day": 3000, "cost_per_km": 9.8,  "reliability": 0.96},
-    "Sea":  {"speed_km_day": 350,  "cost_per_km": 1.1,  "reliability": 0.80},
+    "Road": {"speed_km_day": 450,  "cost_per_kg_km": 0.028, "reliability": 0.90},
+    "Rail": {"speed_km_day": 600,  "cost_per_kg_km": 0.015, "reliability": 0.85},
+    "Air":  {"speed_km_day": 3000, "cost_per_kg_km": 0.090, "reliability": 0.96},
+    "Sea":  {"speed_km_day": 350,  "cost_per_kg_km": 0.010, "reliability": 0.80},
 }
+
+# Flat handling/booking fee (₹) applied per shipment regardless of weight —
+# mirrors real carrier minimum charges.
+SHIPMENT_HANDLING_FEE = 35.0
 
 # Real logistics providers that actually move Flipkart's parcels in India
 CARRIERS = [

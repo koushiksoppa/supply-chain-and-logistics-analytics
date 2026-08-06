@@ -59,7 +59,7 @@ def build_products(rng: np.random.Generator) -> pd.DataFrame:
             "Base Selling Price": price,
             "Daily Demand Rate": round(daily_demand_rate, 2),
             "Forecast Noise": cfg["forecast_noise"],
-            "Unit Weight KG": round(rng.uniform(0.1, 25.0), 2),
+            "Unit Weight KG": round(rng.uniform(*config.CATEGORY_UNIT_WEIGHT_KG[category]), 2),
         })
     return pd.DataFrame(rows)
 
