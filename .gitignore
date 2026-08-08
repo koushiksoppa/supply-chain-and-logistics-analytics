@@ -1,26 +1,46 @@
-# Virtual Environment
-venv/
-.venv/
-
-# Python
+# --- Python ---
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
 *.egg-info/
-
-# Jupyter
+.eggs/
 .ipynb_checkpoints/
+.pytest_cache/
 
-# VS Code
-.vscode/
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
 
-# Power BI temporary files
-*.pbix.autosave
+# --- Jupyter ---
+.ipynb_checkpoints
 
-# Environment variables
-.env
-
-# OS files
+# --- OS files ---
 .DS_Store
 Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- Data (large synthetic dataset should not bloat the repo) ---
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Database files ---
+*.db
+*.sqlite
+*.sqlite3
+sql/supply_chain.db
+
+# --- Power BI (large binary; track via Git LFS or release assets instead) ---
+powerbi/*.pbix
+
+# --- Logs ---
+*.log
+
+# --- Environment variables / secrets ---
+.env
