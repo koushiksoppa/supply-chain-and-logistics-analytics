@@ -1,7 +1,5 @@
 # 📦 Supply Chain Analytics Dashboard
 
-> ✅ Project complete — all 11 build steps finished. See `docs/interview_prep.md` for interview preparation.
-
 An end-to-end supply chain analytics project modeled on a Flipkart-style Indian e-commerce operation — built to demonstrate industry-level analytics work, not a tutorial walkthrough. Covers Python data engineering, SQL business intelligence, and a fully-specified Power BI executive dashboard.
 
 ## Business Problem
